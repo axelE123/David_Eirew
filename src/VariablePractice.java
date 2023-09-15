@@ -20,7 +20,7 @@ public class VariablePractice {
         System.out.println();
         System.out.println("Problem 2");
         String[] teachers = {"Mr. Alves", "N/A", "Mr. Zaremba", "Ms. McCartin", "Mr. Wilkie", "Ms. Silvers", "Ms. Reed", "Ms. Reed"};
-        String[] lessons = {"Law 12", "Spare", "Coding 12", "French 12", "AP Bio 12", "English 12", "Calculus 12", "Pre-Calculus 12"};
+        String[] lessons = {"Law 12", "Free Block", "Coding 12", "French 12", "AP Bio 12", "English 12", "Calculus 12", "Pre-Calculus 12"};
 
         line();
         for (int i = 0; i < 8; i++) {
@@ -42,12 +42,10 @@ public class VariablePractice {
         System.out.println();
         System.out.println("Problem 3");
         Scanner scanner = new Scanner(System.in);
-        int hotdogs;
-        int drinks;
         System.out.print("How many hotdogs would you like? ");
-        hotdogs = Integer.parseInt(scanner.nextLine());
+        int hotdogs = Integer.parseInt(scanner.nextLine());
         System.out.print("How many drinks would you like? ");
-        drinks = Integer.parseInt(scanner.nextLine());
+        int drinks = Integer.parseInt(scanner.nextLine());
 
         double total = ( hotdogs * 5.50 + drinks * 2 ) * 1.12;
         total = Math.round(total * 100.0) / 100.0;
