@@ -58,7 +58,7 @@ public class ConditionalPractice {
             System.out.println("Your weight would be " + (weight * 1.23) + " lbs on Neptune");
         }
         System.out.println("");
-        System.out.print("Are you ready for a quiz: ");
+        System.out.print("Type anything to start the quiz: ");
         String ready;
         int q_one;
         int q_two;
