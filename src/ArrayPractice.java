@@ -41,12 +41,12 @@ public class ArrayPractice {
         System.out.println(Arrays.toString(arraytwo));
         System.out.println("Items " + pos + " and " + postwo + " changed places");
 
-        int[] arraythree = new int[10];
+        System.out.println();
+        System.out.println(Arrays.toString(arraytwo));
+        int[] arraythree = new int[arraytwo.length];
         for(int i = 0; i < 10; i++){
             arraythree[i] = arraytwo[9-i];
         }
-        System.out.println();
-        System.out.println(Arrays.toString(arraytwo));
         arraytwo = arraythree;
         System.out.println(Arrays.toString(arraytwo));
         System.out.println("This array is backwards now");

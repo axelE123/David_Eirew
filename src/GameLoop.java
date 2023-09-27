@@ -56,14 +56,11 @@ public class GameLoop {
             }
             System.out.println("The computer chose " + comp_response);
             //This turns the random number into a choice for the computer and prints out the choice.
-
-
             if(user_response.equals(comp_response)){
                 System.out.println("It's a tie");
                 draws++;
             }
             //If the user's response is the same as the computer's, then it will be a tie.
-
             else if("Rock".equals(user_response) && "Scissors".equals(comp_response)){
                 System.out.println("You win");
                 user_wins++;
@@ -77,6 +74,7 @@ public class GameLoop {
                 user_wins++;
             }
             //These are the three possibilities for the user to win.
+
             else{
                 System.out.println("The computer wins");
                 comp_wins++;
